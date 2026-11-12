@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" width="380" height="80">
+  <defs>
+    <clipPath id="voice-clip">
+      <rect width="380" height="80" rx="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#voice-clip)">
+    <rect width="380" height="80" fill="#060f24"/>
+  </g>
+  <!-- Borde azul punteado (dash) -->
+  <rect x="1.5" y="1.5" width="377" height="77" rx="15" fill="none" stroke="#3a7bc8" stroke-width="2" stroke-dasharray="8,5"/>
+</svg>

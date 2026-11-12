@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 520" width="380" height="520">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="380" height="520" rx="18"/>
+    </clipPath>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#1a4a8a" opacity="0.5"/>
+    </pattern>
+    <pattern id="stars-small" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <text x="10" y="18" font-size="10" fill="#ffffff" opacity="0.08">★</text>
+      <text x="40" y="45" font-size="8"  fill="#60b4ff" opacity="0.08">★</text>
+      <text x="5"  y="52" font-size="6"  fill="#ffffff" opacity="0.06">✦</text>
+      <text x="48" y="12" font-size="6"  fill="#60b4ff" opacity="0.06">✦</text>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+
+    <!-- Fondo base azul oscuro -->
+    <rect width="380" height="520" fill="#0a1a3a"/>
+
+    <!-- Patrón de puntos -->
+    <rect width="380" height="520" fill="url(#dots)"/>
+
+    <!-- Patrón de estrellas -->
+    <rect width="380" height="520" fill="url(#stars-small)"/>
+
+    <!-- Header liso blanco -->
+    <rect x="0" y="0" width="380" height="56" fill="#ffffff"/>
+
+    <!-- Franja de bombillas -->
+    <rect x="0" y="56" width="380" height="14" fill="#0a1a3a"/>
+    <circle cx="19"  cy="63" r="5" fill="#ffffff" opacity="0.95"/>
+    <circle cx="57"  cy="63" r="5" fill="#60b4ff" opacity="0.95"/>
+    <circle cx="95"  cy="63" r="5" fill="#ffffff" opacity="0.95"/>
+    <circle cx="133" cy="63" r="5" fill="#60b4ff" opacity="0.95"/>
+    <circle cx="171" cy="63" r="5" fill="#ffffff" opacity="0.95"/>
+    <circle cx="209" cy="63" r="5" fill="#60b4ff" opacity="0.95"/>
+    <circle cx="247" cy="63" r="5" fill="#ffffff" opacity="0.95"/>
+    <circle cx="285" cy="63" r="5" fill="#60b4ff" opacity="0.95"/>
+    <circle cx="323" cy="63" r="5" fill="#ffffff" opacity="0.95"/>
+    <circle cx="361" cy="63" r="5" fill="#60b4ff" opacity="0.95"/>
+
+    <!-- Puntos laterales izquierda -->
+    <circle cx="12" cy="150" r="6" fill="#ffffff" opacity="0.8"/>
+    <circle cx="12" cy="230" r="6" fill="#60b4ff" opacity="0.8"/>
+    <circle cx="12" cy="310" r="6" fill="#ffffff" opacity="0.8"/>
+    <circle cx="12" cy="390" r="6" fill="#60b4ff" opacity="0.8"/>
+    <circle cx="12" cy="470" r="6" fill="#ffffff" opacity="0.8"/>
+
+    <!-- Puntos laterales derecha -->
+    <circle cx="368" cy="150" r="6" fill="#ffffff" opacity="0.8"/>
+    <circle cx="368" cy="230" r="6" fill="#60b4ff" opacity="0.8"/>
+    <circle cx="368" cy="310" r="6" fill="#ffffff" opacity="0.8"/>
+    <circle cx="368" cy="390" r="6" fill="#60b4ff" opacity="0.8"/>
+    <circle cx="368" cy="470" r="6" fill="#ffffff" opacity="0.8"/>
+
+  </g>
+
+  <!-- Borde blanco exterior doble -->
+  <rect x="1.5" y="1.5" width="377" height="517" rx="17" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <rect x="7"   y="7"   width="366" height="506" rx="13" fill="none" stroke="#60b4ff" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Esquinas decorativas -->
+  <circle cx="22"  cy="22"  r="9" fill="#ffffff"/>
+  <circle cx="358" cy="22"  r="9" fill="#ffffff"/>
+  <circle cx="22"  cy="498" r="9" fill="#ffffff"/>
+  <circle cx="358" cy="498" r="9" fill="#ffffff"/>
+</svg>
